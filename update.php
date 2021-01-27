@@ -114,7 +114,7 @@ if (isset($_GET['id'])) {
 
 <?php
 	} else {
-		// If the 'id' value is not valid, redirect the user back to view.php page
+		// If the 'id' value is not valid, redirect the user back to index.php page
 		header('Location: index.php');
 	}
 }
